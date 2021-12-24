@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma, 'sans-serif';
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: lightsteelblue;
+}
+
+header a{
+    color: black;
+    margin: 0 15px;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 500px;
+}
+
+#content-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.wrapper{
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.img{
+    width: 400px;
+}
+
+.post{
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #c4c4c4;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.body{
+    margin-bottom: 5px;
+}
+
+.image{
+    margin-bottom: 15px;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.actions a{
+    color: #000;
+}
+
+input{
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #cbd5e0;
+    text-align: center;
+}
+
+select{
+    border: none;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #cbd5e0;
+    text-align: center;
+}
+
+textarea{
+    border: none;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #cbd5e0;
+
+    width: 200px;
+
+}
+
+textarea::placeholder{
+    padding: 15px;
+    text-align: center;
+}
+
+input[type=file]{
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    padding: 15px;
+    width: auto;
+    background-color: #cbd5e0;
+    text-align: center;
+}
+
+textarea::placeholder:focus-within{
+
+}
+
+button{
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #cbd5e0;
+    width: 150px;
+}
+
+.button{
+    margin-top: 10px;
+    display: inline;
+    border: none;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #cbd5e0;
+    width: 150px;
+    cursor: pointer;
+}
+
+.err{
+    color: tomato;
+    margin: 10px 0;
+}
+
+#addpost{
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#dialog{
+    display: none;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
